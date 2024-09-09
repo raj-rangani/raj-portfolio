@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,5 +23,37 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+.shape-one {
+  @apply h-44 w-44 relative rounded-full blur-2xl bg-gradient-to-r from-fuchsia-600 from-10% via-pink-600 via-30% to-yellow-500 to-100%;
+  animation: one 10s infinite;
+}
+
+@keyframes one {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: -100px;
+    top: -50px;
+  }
+
+  50% {
+    left: -70px;
+    top: 30px;
+  }
+
+  75% {
+    left: -20px;
+    top: 50px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
   }
 }
