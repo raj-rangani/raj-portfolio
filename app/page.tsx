@@ -123,7 +123,7 @@ export default function Home() {
             </div>
             <div className="uppercase font-metropolis-medium text-sm xl:text-lg hidden xl:block">
               <text>
-                Some of the technologies or tools that i'd worked with
+                Some of the technologies or tools that i&apos;d worked with
               </text>
             </div>
           </div>
@@ -418,7 +418,7 @@ export default function Home() {
                 ARE YOU INTERESTED IN COLLABORATING OR HIRE ME TO ELEVATE YOUR
                 COMPANY IN THE DIGITAL ERA?
               </text>
-              <text>LET'S GET TO WORK.</text>
+              <text>LET&apos;S GET TO WORK.</text>
             </div>
             <Link href={"mailto:iamrajrangani@gmail.com"} target="_blank">
               <div className="border-b border-white w-fit">
