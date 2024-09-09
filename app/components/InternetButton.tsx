@@ -19,7 +19,7 @@ const InternetButton = ({ link }: ButtonProps) => {
       <div className="h-14 w-14 bg-white rounded-full flex justify-center items-center">
         <Image
           src={"/icons/globe-black.svg"}
-          alt="github-icon"
+          alt="internet-icon"
           width={46}
           height={46}
         />

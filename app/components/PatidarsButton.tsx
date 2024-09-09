@@ -19,7 +19,7 @@ const PatidarsButton = ({ link }: ButtonProps) => {
       <div className="h-14 w-14 bg-white rounded-full flex justify-center items-end">
         <Image
           src={"/icons/the-patidars-black.svg"}
-          alt="arrow-up-right"
+          alt="thepatidars-logo"
           width={36}
           height={36}
         />

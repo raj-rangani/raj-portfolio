@@ -272,33 +272,47 @@ export default function Home() {
                 />
                 <Image
                   src={"/images/the-patidars-two.png"}
-                  alt="project patidars image one"
+                  alt="project patidars image two"
                   width={0}
                   height={0}
                   sizes="100vw"
                   className="w-[25%] max-w-52"
                 />
                 <div className="flex w-[25%] gap-3 justify-center items-start pt-4">
-                  <Image
-                    src={"/icons/app-store-white.svg"}
-                    alt="project patidars image one"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    className="w-[35%]"
-                  />
-                  <Image
-                    src={"/icons/play-store-white.svg"}
-                    alt="project patidars image one"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    className="w-[35%]"
-                  />
+                  <Link
+                    target="_blank"
+                    href={
+                      "https://apps.apple.com/in/app/the-patidars/id1550106145"
+                    }
+                  >
+                    <Image
+                      src={"/icons/app-store-white.svg"}
+                      alt="project patidars app store"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      className="w-[100%]"
+                    />
+                  </Link>
+                  <Link
+                    target="_blank"
+                    href={
+                      "https://play.google.com/store/apps/details?id=com.thepatidars"
+                    }
+                  >
+                    <Image
+                      src={"/icons/play-store-white.svg"}
+                      alt="project patidars play store"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      className="w-[100%]"
+                    />
+                  </Link>
                 </div>
                 <Image
                   src={"/images/the-patidars-logo.png"}
-                  alt="project patidars image one"
+                  alt="project patidars logo"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -306,7 +320,7 @@ export default function Home() {
                 />
                 <Image
                   src={"/images/the-patidars-three.png"}
-                  alt="project patidars image one"
+                  alt="project patidars image three"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -334,7 +348,7 @@ export default function Home() {
                 />
                 <Image
                   src={"/images/movie-db-two.png"}
-                  alt="project patidars image one"
+                  alt="project patidars image two"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -342,7 +356,7 @@ export default function Home() {
                 />
                 <Image
                   src={"/images/movie-db-three.png"}
-                  alt="project patidars image one"
+                  alt="project patidars image three"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -350,7 +364,7 @@ export default function Home() {
                 />
                 <Image
                   src={"/images/movie-db-logo.png"}
-                  alt="project patidars image one"
+                  alt="project patidars logo"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -464,7 +478,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-x-10 gap-y-4 justify-center items-center w-full">
             <Image
               src={"/icons/node-mark.svg"}
-              alt="arrow-up-right"
+              alt="node mark"
               width={0}
               height={0}
               sizes="100vw"
@@ -472,7 +486,7 @@ export default function Home() {
             />
             <Image
               src={"/icons/next-mark.svg"}
-              alt="arrow-up-right"
+              alt="next mark"
               width={0}
               height={0}
               sizes="100vw"
@@ -480,7 +494,7 @@ export default function Home() {
             />
             <Image
               src={"/icons/express-mark.svg"}
-              alt="arrow-up-right"
+              alt="express mark"
               width={0}
               height={0}
               sizes="100vw"
@@ -488,7 +502,7 @@ export default function Home() {
             />
             <Image
               src={"/icons/neo4j-mark.svg"}
-              alt="arrow-up-right"
+              alt="neo4j mark"
               width={0}
               height={0}
               sizes="100vw"
@@ -496,7 +510,7 @@ export default function Home() {
             />
             <Image
               src={"/icons/prisma-mark.svg"}
-              alt="arrow-up-right"
+              alt="prisma mark"
               width={0}
               height={0}
               sizes="100vw"
@@ -506,7 +520,7 @@ export default function Home() {
           <div className="flex gap-4 lg:gap-9 justify-center items-center">
             <Image
               src={"/icons/one-signal-mark.svg"}
-              alt="arrow-up-right"
+              alt="one signal mark"
               width={0}
               height={0}
               sizes="100vw"
@@ -514,7 +528,7 @@ export default function Home() {
             />
             <Image
               src={"/icons/react-mark.svg"}
-              alt="arrow-up-right"
+              alt="react-mark"
               width={0}
               height={0}
               sizes="100vw"
@@ -522,7 +536,7 @@ export default function Home() {
             />
             <Image
               src={"/icons/spicedb-mark.svg"}
-              alt="arrow-up-right"
+              alt="spicedb mark"
               width={0}
               height={0}
               sizes="100vw"
@@ -530,7 +544,7 @@ export default function Home() {
             />
             <Image
               src={"/icons/nest-mark.svg"}
-              alt="arrow-up-right"
+              alt="nest mark"
               width={0}
               height={0}
               sizes="100vw"
