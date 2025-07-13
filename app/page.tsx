@@ -258,7 +258,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                  <PatidarsButton link="https://thepatidars.com/" />
+                  <PatidarsButton link="https://thepatidars.org/" />
                 </div>
               </div>
               <div className="flex-[2] flex flex-wrap justify-end gap-3 md:gap-6 max-w-2xl">
